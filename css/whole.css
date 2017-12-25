@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "宋体";
+	font-size: 12px;
+	color: #666;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF7701;
+}
+
+img {
+	border: 0px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.over {
+	overflow: hidden;
+	zoom: 1;
+}
+
+
+/*top start*/
+
+.top {
+	background-color: #F5F5F5;
+}
+
+.topcon {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.topleft {
+	float: left;
+	padding: 12px 0;
+}
+
+.topleft .guanz {
+	float: left;
+	width: 55px;
+	line-height: 16px;
+}
+
+.sina,.weibo,.weixin,.jiantou{
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+
+.topright .login{
+	float: left;
+	width: 84px;
+	line-height: 16px;
+}
+.dind,.shouc,.kef,.iphone{
+	float: left;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	margin-right: 5px;
+	margin-top: 14px;
+}
+.topright span{
+	float: left;
+	margin-right: 10px;
+	line-height: 16px;
+	margin-top: 14px;
+}
+
+/*top end*/

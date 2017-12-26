@@ -23,8 +23,6 @@
 				<span>4</span>
 				<span>5</span>
 			</ul>
-			<div class="prev"><span>〈</span></div>
-			<div class="next"><span>〉</span></div>
 		</div>
 		
 		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
@@ -73,27 +71,6 @@
 					images.eq(index).fadeIn(200); //下一张淡入
 				});
 				
-				
-				//下一张
-				$(".banner .next").click(function(){
-					//停止所有的动画
-					$(":animated").stop(true, true);
-					images.eq(index).fadeOut(200); //前一张淡出
-					index = (index + 1) % imageCount; //下一张
-					images.eq(index).fadeIn(200); //下一张淡入
-					points.removeClass("active").eq(index).addClass("active");
-				});
-				
-				//上一张
-				$(".banner .prev").click(function(){
-					//停止所有的动画
-					$(":animated").stop(true, true);
-					images.eq(index).fadeOut(200); //前一张淡出
-					index = (index + imageCount - 1) % imageCount; //上一张
-					images.eq(index).fadeIn(200); //下一张淡入
-					points.removeClass("active").eq(index).addClass("active");
-				});
-
 			});
 		</script>
 

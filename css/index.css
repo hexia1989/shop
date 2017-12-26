@@ -258,3 +258,20 @@
 
 /* ---------- 兑换专区 end ---------- */
 
+/* ---------- 销量最多 start ---------- */
+.xiaoliang{
+	width: 1190px;
+	margin: 0 auto;
+}
+.mostspan{ margin-top:10px;}
+.mostspan span{ float:left; width:110px; text-align:center; height:45px; line-height:45px; font-family:"微软雅黑"; color:#666; font-size:18px; cursor:pointer;}
+.mostspan span.current{ color:#C10100; border-bottom:2px solid #C10100;}
+.mostproduct{ border-left:1px solid #ddd; border-top:1px solid #ddd; overflow:hidden; zoom:1;}
+.mostproduct li{ float:left; width:197px; height:238px; border-bottom:1px solid #ddd; border-right:1px solid #ddd;}
+.mostproduct li dl{ padding:15px 0; height:208px; position:relative;}
+.mostproduct li dl dt img{ width:150px; height:150px;}
+.mostproduct li dl dt{ margin-bottom:10px; text-align:center;}
+.mostproduct li dl dd{ line-height:22px; padding:0 20px;}
+.mostproduct li dl dd span{ color:#FF7700; font-family:"微软雅黑"; font-size:14px;}
+.mostproduct li dl dd.empty{ position:absolute; left:0; top:0; background-color:#000; filter:alpha(Opacity=20); -moz-opacity:0.2; opacity:0.2; height:237px; width:196px; padding:0; display:none;}
+/* ---------- 销量最多 end ---------- */

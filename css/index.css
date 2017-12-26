@@ -150,7 +150,7 @@
 	height: 353px;
 }
 
-.bannerspan {
+/*.bannerspan*/.points {
 	position: absolute;
 	right: 10px;
 	bottom: 15px;
@@ -158,7 +158,7 @@
 	/*border: 1px solid red;*/
 }
 
-.bannerspan span {
+/*.bannerspan*/.points span {
 	display: inline-block;
 	margin-right: 8px;
 	color: #fff;
@@ -172,8 +172,8 @@
 	cursor: pointer;
 }
 
-.bannerspan span:hover,
-.bannerspan span:first-child {
+/*.bannerspan*/ .points span:hover,
+/*.bannerspan*/ .points span:first-child {
 	background-color: #FF7700;
 }
 

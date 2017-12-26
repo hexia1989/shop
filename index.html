@@ -6,92 +6,13 @@
 		<title>商城</title>
 		<link type="text/css" rel="stylesheet" href="css/whole.css" />
 		<link type="text/css" rel="stylesheet" href="css/index.css" />
-
+		
 	</head>
 
 	<body>
 		<!-- 头部 start -->
-		<div class="top">
-			<div class="topcon over">
-				<div class="topleft over">
-					<span class="active">关注我们</span>
-					<a href="#" class="sinablog"></a>
-					<a href="#" class="qqblog"></a>
-					<a href="#" class="weixin"></a>
-					<strong class="down"></strong>
-				</div>
-				<div class="topright over">
-					<a href="#" class="login">登录&nbsp;|&nbsp;注册</a>
-					<strong class="myorder"></strong>
-					<a href="#">我的订单</a><strong class="mylove"></strong>
-					<a href="#">收藏夹</a><strong class="service"></strong>
-					<a href="#">在线客服</a><strong class="call"></strong><span class="callnumber">客服电话：400-888-8888</span>
-				</div>
-			</div>
-		</div>
-		<!-- 头部 end -->
-
-		<!-- 头部广告 start -->
-		<div class="topadd">
-			<a href="#"></a>
-		</div>
-		<!-- 头部广告 end -->
-
-		<!-- 搜索 start -->
-		<div class="header over">
-			<h1 class="logo"><a href="#"><img src="images/icons/logo.jpg" /></a></h1>
-			<div class="search">
-				<div class="searchform over">
-					<input type="text" value="请输入搜索关键字......" class="searchcon" />
-					<input type="submit" value="搜 索" class="searchsub" />
-				</div>
-				<div class="keyword">
-					<a href="#"><span>生日礼物</span></a>
-					<a href="#">巧克力</a>
-					<a href="#">鲜花</a>
-					<a href="#">手表</a>
-					<a href="#"><span>项链/吊坠</span></a>
-					<a href="#">家居装饰</a>
-					<a href="#">炭雕摆件</a>
-				</div>
-			</div>
-			<div class="car over">
-				<a href="#">
-					<strong class="carimg"></strong>
-					<span class="carword">购物车</span>
-					<span class="carnumber">253</span>
-					<strong class="carmore"></strong>
-				</a>
-			</div>
-		</div>
-		<!-- 搜索 end -->
-
-		<!--导航 start-->
-		<ul class="nav over">
-			<li>
-				<a href="#">全部商品分类</a>
-			</li>
-			<li>
-				<a href="#">首 页</a>
-			</li>
-			<li>
-				<a href="#">个人福利</a>
-			</li>
-			<li>
-				<a href="#">家庭福利</a>
-			</li>
-			<li>
-				<a href="#">公司福利</a>
-			</li>
-			<li>
-				<a href="#">兑换专区</a>
-			</li>
-			<li>
-				<a href="#">特价专卖</a>
-			</li>
-			<li></li>
-		</ul>
-		<!--导航 end-->
+		<div id="header"></div>
+		<!--头部 end-->
 
 		<!-- 二级导航和banner start -->
 		<div class="main">
@@ -414,22 +335,27 @@
 			<!-- 二级导航 end -->
 
 			<!-- banner start -->
-			<div class="banner">
+			<!--<div class="banner">
 				<div class="bannerimg">
-					<a href="#"><img src="images/add/banner1.jpg" /></a>
-					<a href="#"><img src="images/add/banner2.jpg" /></a>
-					<a href="#"><img src="images/add/banner3.jpg" /></a>
-					<a href="#"><img src="images/add/banner4.jpg" /></a>
-					<a href="#"><img src="images/add/banner5.jpg" /></a>
+					<ul>
+					<li><a href="#"><img src="images/add/banner1.jpg" /></a></li>
+					<li><a href="#"><img src="images/add/banner2.jpg" /></a></li>
+					<li><a href="#"><img src="images/add/banner3.jpg" /></a></li>
+					<li><a href="#"><img src="images/add/banner4.jpg" /></a></li>
+					<li><a href="#"><img src="images/add/banner5.jpg" /></a></li>
+				    </ul>
 				</div>
 				<div class="bannerspan">
+					<ul class="points">
 					<span>1</span>
 					<span>2</span>
 					<span>3</span>
 					<span>4</span>
 					<span>5</span>
+					</ul>
 				</div>
-			</div>
+			</div>-->
+			<div id="banner"></div>
 			<!-- banner end -->
 
 			<!-- 新品首发 start -->
@@ -677,68 +603,17 @@
 		
 
 		<!-- 底部友情链接 start -->
-		<div class="footer">
-			<div class="footercon over">
-				<dl>
-					<dt><strong class="footgwzn"></strong><span>购物指南</span></dt>
-					<dd>
-						<a href="#">新用户注册</a>
-					</dd>
-					<dd>
-						<a href="#">购物流程</a>
-					</dd>
-					<dd>
-						<a href="#">订单状态</a>
-					</dd>
-					<dd>
-						<a href="#">优惠券使用</a>
-					</dd>
-				</dl>
-				<dl>
-					<dt><strong class="footpsfs"></strong><span>配送方式</span></dt>
-					<dd>
-						<a href="#">配送时间和范围</a>
-					</dd>
-					<dd>
-						<a href="#">配送常见问题</a>
-					</dd>
-				</dl>
-				<dl>
-					<dt><strong class="footzffs"></strong><span>支付方式</span></dt>
-					<dd>
-						<a href="#">货到付款</a>
-					</dd>
-					<dd>
-						<a href="#">在线支付</a>
-					</dd>
-					<dd>
-						<a href="#">发票说明</a>
-					</dd>
-				</dl>
-				<dl>
-					<dt><strong class="footshfw"></strong><span>售后服务</span></dt>
-					<dd>
-						<a href="#">退换货说明</a>
-					</dd>
-				</dl>
-				<dl>
-					<dt><strong class="footkfzx"></strong><span>客服中心</span></dt>
-					<dd>
-						<a href="#">联系客服</a>
-					</dd>
-				</dl>
-			</div>
-		</div>
-		<div class="bottom">
-			<p>
-				<a href="#">关于赞礼</a> |
-				<a href="#">产品中心</a> |
-				<a href="#">帮助中心</a> |
-				<a href="#">联系我们</a>
-			</p>
-			<P>上海市宝山区蕴川路512号红石商务大厦5层C座 沪ICP备14025299号 版权所有©赞礼电子商务有限公司</P>
-		</div>
+		<div id=footer></div>
 		<!-- 底部友情链接 end -->
+		
+		
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+	    <script type="text/javascript">
+			$("#banner").load("banner.html");
+			$("#header").load("header.html");
+			$("#footer").load("footer.html");
+		</script>
+		
 
 	</body>
 

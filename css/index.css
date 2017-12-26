@@ -1,0 +1,260 @@
+/* ---------- banner start ---------- */
+
+.main {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.banner {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 755px;
+	height: 353px;
+	overflow: hidden;
+	zoom: 1;
+	position: relative;
+	z-index: 10;
+}
+
+.bannerimg a img {
+	width: 755px;
+	height: 353px;
+}
+
+.bannerspan {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 20;
+	/*border: 1px solid red;*/
+}
+
+.bannerspan span {
+	display: inline-block;
+	margin-right: 8px;
+	color: #fff;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	background-color: #000;
+	border-radius: 50%;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.bannerspan span:hover,
+.bannerspan span:first-child {
+	background-color: #FF7700;
+}
+
+
+/* ---------- banner end ---------- */
+
+
+/* ---------- 新品首发 start ---------- */
+
+.newproduct {
+	float: right;
+	width: 215px;
+	margin-top: 15px;
+}
+
+.title1 strong {
+	float: left;
+	display: inline-block;
+	background: url(../images/icons/whole.png) no-repeat -140px -150px;
+	width: 17px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+.title1 span {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 14px;
+	float: left;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.newcon {
+	width: 213px;
+	height: 312px;
+	border: 1px solid #ddd;
+	overflow: hidden;
+	zoom: 1;
+	margin-top: 14px;
+	position: relative;
+	z-index: 10;
+}
+
+.newimg a img {
+	width: 213px;
+	height: 312px;
+}
+
+.newspan {
+	position: absolute;
+	bottom: 15px;
+	left: 65px;
+	z-index: 20;
+}
+
+.newspan span {
+	display: inline-block;
+	margin: 0 4px;
+	color: #fff;
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	line-height: 18px;
+	background-color: #FF7700;
+	border-radius: 50%;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.newspan span.current {
+	background-color: #fff;
+}
+
+
+/* ---------- 新品首发 end ---------- */
+
+
+/* ---------- 兑换专区 start ---------- */
+
+.title {
+	width: 1190px;
+	/*background-color: #DF2B37;*/
+	margin: 0 auto;
+}
+
+.dhleft {
+	float: left;
+	padding: 13px;
+}
+
+.dhleft strong {
+	float: left;
+	display: inline-block;
+	background: url(../images/icons/whole.png) no-repeat -135px -111px;
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+
+.duihuan a {
+	font-family: "微软雅黑";
+	color: #333;
+	font-size: 18px;
+	display: inline-block;
+	/*border: 1px solid blue;*/
+	margin-top: 5px;
+}
+
+.dhright {
+	float: right;
+	line-height: 54px;
+}
+
+.changelist {
+	width: 1170px;
+	margin:0 auto;
+	/*margin-top: 10px;*/
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 2px solid #9CB526;
+	padding: 22px 9px 15px 9px;
+	position: relative;
+	/*background-color: #9CB526;*/
+}
+
+.changecon {
+	width: 1170px;
+	height: 248px;
+	overflow: hidden;
+	zoom: 1;
+	position: relative;
+}
+
+/*.changelist {
+	position: absolute;
+	z-index: 50;
+}*/
+
+.changelist dl {
+	float: left;
+	width: 192px;
+	display: inline;
+	margin: 0 21px;
+}
+
+.changelist dl dt a img {
+	width: 192px;
+	height: 192px;
+}
+
+.changelist dl dt {
+	margin-bottom: 8px;
+}
+
+.changelist dl dd {
+	line-height: 24px;
+}
+
+.price i {
+	float: right;
+	font-style: normal;
+	color: #666;
+	margin-left: 5px;
+}
+
+.price strong {
+	float: right;
+	background:url(../images/icons/whole.png) no-repeat -218px 0;
+	width: 17px;
+	height: 15px;
+	margin-top: 4px;
+}
+
+.price span {
+	float: left;
+	color: #FF7700;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.changezuo {
+	background:url(../images/icons/whole.png) no-repeat 0 -111px;
+	display: block;
+	width: 60px;
+	height: 60px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 0px;
+	top: 110px;
+	cursor: pointer;
+	/*display: none;*/
+	z-index: 60;
+}
+
+.changeyou {
+	background:url(../images/icons/whole.png) no-repeat -65px -111px;
+	display: block;
+	width: 60px;
+	height: 60px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 0px;
+	top: 110px;
+	cursor: pointer;
+	/*display: none;*/
+	z-index: 60;
+}
+
+/* ---------- 兑换专区 end ---------- */
+

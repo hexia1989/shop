@@ -344,25 +344,26 @@ img {
 }
 
 .navlist {
+	float: left;
 	width: 200px;
 	border-top: 2px solid #1D7AD9;
 	border-bottom: 2px solid #1D7AD9;
 	background-color: #fff;
 }
 
-.erji {
+/*.erji {
 	position: absolute;
 	display: none;
 	width: 200px;
-	height: 360px;
+	height: 350px;
 	border-bottom: 2px solid #1D7AD9;
 	background-color: #fff;
 	z-index: 999;
-}
+}*/
 
 .navsecond li {
 	padding: 12px 12px;
-	height: 95px;
+	height: 94px;
 	border-bottom: 1px dashed #ddd;
 	border-left: 2px solid #1D7AD9;
 	border-right: 2px solid #1D7AD9;
@@ -405,7 +406,7 @@ img {
 
 .navlink {
 	margin-top: 8px;
-	line-height: 22px;
+	line-height:20px;
 	/*border: 1px solid red;*/
 }
 
@@ -426,6 +427,7 @@ img {
 	padding: 10px 15px;
 	width: 475px;
 	border: 2px solid #1D7AD9;
+	z-index:999;
 }
 
 .subnav dl {

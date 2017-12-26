@@ -1,0 +1,109 @@
+.paylist{
+	width: 1190px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.liuchen{
+	text-align: right;
+	margin-top: 28px;
+}
+.tijiao{
+	margin-top: 36px;
+	/*border: 1px solid blueviolet;*/
+	position: relative;
+	
+}
+.tijiao ul li strong{
+	background: url(../images/icons/pay-icon.png) no-repeat 0px 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	background-size:90px;
+	/*border: 1px solid red;*/
+}
+
+.tijiao ul li b{
+	font-size: 14px;
+	color: #666;
+	margin-left: 70px;
+	line-height: 25px;
+}
+.tijiao ul li p{
+	color: #666;
+	margin-left: 70px;
+}
+.tijiao ul li .shijian{
+	color: #FF7800;
+	font-weight: bold;
+}
+.tijiao ul li .tjlist{
+	width: 73px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	display: inline-block;
+	background-color: #1D7AD9;
+	margin-left: 70px;
+	color: #FFF;
+	margin-top: 10px;
+}
+.tijiao ul li .kahao{
+	font-size: 12px;
+	/*border: 1px solid red;*/
+	margin-left: 10px;
+}
+.tijiao ul li .yuan{
+	color: #FF7800;
+	margin-left: 10px;
+	/*border: 1px solid red;*/
+	font-weight: bold;
+}
+.tjlistsan{
+	position: relative;
+}
+.tijiao ul li .zfbicon img{
+	color: #FF7800;
+	margin-left: 10px;
+	border: 1px solid #ddd;
+	position: absolute;
+	top:10px;
+	left:143px;
+}
+.fukuan{
+	width: 970px;
+	margin: 0 auto;
+	padding: 34px 40px;
+	border: 1px solid #ddd;
+	margin-top: 70px;
+	margin-bottom: 36px;
+	color: #666;
+}
+.fukuan input{
+	width: 247px;
+	height: 25px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+}
+.fukuan .btnone{
+	color: #666;
+}
+.fukuan .btntwo{
+	width: 90px;
+	height: 32px;
+	background-color: #FF7800;
+	border: 0px;
+	color: #FFF;
+	margin-left: 53px;
+	margin-bottom: 20px;
+}
+.fukuan p{
+	width: 930px;
+	height: 100px;
+	background-color: #F2F2F2;
+	padding: 15px 20px;
+	line-height: 24px;
+}

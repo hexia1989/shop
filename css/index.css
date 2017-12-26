@@ -1,3 +1,131 @@
+/* ---------- 二级导航 start ---------- */
+
+.main {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.navlist {
+	float: left;
+	width: 200px;
+	border-top: 2px solid #1D7AD9;
+	border-bottom: 2px solid #1D7AD9;
+	background-color: #fff;
+}
+
+
+
+
+.navsecond li {
+	padding: 12px 12px;
+	height: 94px;
+	border-bottom: 1px dashed #ddd;
+	border-left: 2px solid #1D7AD9;
+	border-right: 2px solid #1D7AD9;
+	cursor: pointer;
+	position: relative;
+}
+
+.navsecond li:hover {
+	background-color: #1D7AD9;
+	border-bottom: 0;
+}
+
+.navsecond li:hover .navtitle a {
+	color: #fff;
+}
+
+.navsecond li:hover .navtitle strong {
+	background: url(../images/icons/whole.png) no-repeat -289px 0;
+}
+
+.navsecond li:hover .navlink a {
+	color: #fff;
+}
+
+.navtitle a {
+	font-family: "微软雅黑";
+	float: left;
+	color: #1D7AD9;
+	font-size: 16px;
+	float: left;
+}
+
+.navtitle strong {
+	float: right;
+	background: url(../images/icons/whole.png) no-repeat -243px 0;
+	width: 4px;
+	height: 8px;
+	margin-top: 6px;
+}
+
+.navlink {
+	margin-top: 8px;
+	line-height: 20px;
+	/*border: 1px solid red;*/
+}
+
+.navlink a {
+	margin-right: 8px;
+}
+
+.navsecond li:hover .subnav {
+	display: block;
+}
+
+.subnav {
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 196px;
+	padding: 10px 15px;
+	width: 475px;
+	border: 2px solid #1D7AD9;
+	z-index: 999;
+}
+
+.subnav dl {
+	overflow: hidden;
+	zoom: 1;
+	padding: 10px 0;
+	border-bottom: 1px dashed #ddd;
+}
+
+.subnav dl dt {
+	float: left;
+	width: 60px;
+	text-align: right;
+	line-height: 22px;
+	margin-right: 15px;
+}
+
+.subnav dl dt a {
+	font-weight: bold;
+	color: #1D7AD9;
+}
+
+.subnav dl dd {
+	float: left;
+	width: 400px;
+	line-height: 22px;
+}
+
+.subnav dl dd a {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.subnav dl dd a span {
+	color: #FF7700;
+}
+
+
+/* ---------- 二级导航 end ---------- */
+
+
+
+
 /* ---------- banner start ---------- */
 
 .main {
@@ -162,7 +290,7 @@
 
 .changelist {
 	width: 1170px;
-	margin:0 auto;
+	margin: 0 auto;
 	/*margin-top: 10px;*/
 	border-left: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
@@ -180,6 +308,7 @@
 	zoom: 1;
 	position: relative;
 }
+
 
 /*.changelist {
 	position: absolute;
@@ -215,7 +344,7 @@
 
 .price strong {
 	float: right;
-	background:url(../images/icons/whole.png) no-repeat -218px 0;
+	background: url(../images/icons/whole.png) no-repeat -218px 0;
 	width: 17px;
 	height: 15px;
 	margin-top: 4px;
@@ -229,7 +358,7 @@
 }
 
 .changezuo {
-	background:url(../images/icons/whole.png) no-repeat 0 -111px;
+	background: url(../images/icons/whole.png) no-repeat 0 -111px;
 	display: block;
 	width: 60px;
 	height: 60px;
@@ -243,7 +372,7 @@
 }
 
 .changeyou {
-	background:url(../images/icons/whole.png) no-repeat -65px -111px;
+	background: url(../images/icons/whole.png) no-repeat -65px -111px;
 	display: block;
 	width: 60px;
 	height: 60px;
@@ -256,22 +385,107 @@
 	z-index: 60;
 }
 
+
 /* ---------- 兑换专区 end ---------- */
 
+
 /* ---------- 销量最多 start ---------- */
-.xiaoliang{
+
+.xiaoliang {
 	width: 1190px;
 	margin: 0 auto;
 }
-.mostspan{ margin-top:10px;}
-.mostspan span{ float:left; width:110px; text-align:center; height:45px; line-height:45px; font-family:"微软雅黑"; color:#666; font-size:18px; cursor:pointer;}
-.mostspan span.current{ color:#C10100; border-bottom:2px solid #C10100;}
-.mostproduct{ border-left:1px solid #ddd; border-top:1px solid #ddd; overflow:hidden; zoom:1;}
-.mostproduct li{ float:left; width:197px; height:238px; border-bottom:1px solid #ddd; border-right:1px solid #ddd;}
-.mostproduct li dl{ padding:15px 0; height:208px; position:relative;}
-.mostproduct li dl dt img{ width:150px; height:150px;}
-.mostproduct li dl dt{ margin-bottom:10px; text-align:center;}
-.mostproduct li dl dd{ line-height:22px; padding:0 20px;}
-.mostproduct li dl dd span{ color:#FF7700; font-family:"微软雅黑"; font-size:14px;}
-.mostproduct li dl dd.empty{ position:absolute; left:0; top:0; background-color:#000; filter:alpha(Opacity=20); -moz-opacity:0.2; opacity:0.2; height:237px; width:196px; padding:0; display:none;}
+
+.mostspan {
+	margin-top: 10px;
+}
+
+.mostspan span {
+	float: left;
+	width: 110px;
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	font-family: "微软雅黑";
+	color: #666;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.mostspan span.current {
+	color: #C10100;
+	border-bottom: 2px solid #C10100;
+}
+
+.mostproduct {
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.mostproduct li {
+	float: left;
+	width: 197px;
+	height: 238px;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.mostproduct li dl {
+	padding: 15px 0;
+	height: 208px;
+	position: relative;
+}
+
+.mostproduct li dl dt img {
+	width: 150px;
+	height: 150px;
+}
+
+.mostproduct li dl dt {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.mostproduct li dl dd {
+	line-height: 22px;
+	padding: 0 20px;
+}
+
+.mostproduct li dl dd span {
+	color: #FF7700;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.mostproduct li dl dd.empty {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #000;
+	filter: alpha(Opacity=20);
+	-moz-opacity: 0.2;
+	opacity: 0.2;
+	height: 237px;
+	width: 196px;
+	padding: 0;
+	display: none;
+}
+
+
 /* ---------- 销量最多 end ---------- */
+
+
+
+/* ---------- 底部广告 start ---------- */
+.footadd{
+	width: 1190px;
+	margin: 0 auto; 
+	margin-top:15px;
+	}
+.footadd a img{ 
+	height:71px;
+}
+/* ---------- 底部广告 end ---------- */
+

@@ -402,6 +402,7 @@
 	height: 196px;
 	background-color: #53bbdb;
 	border-right: 1px solid #FFF;
+	position: relative;
 }
 .pindleft a img,.pindmid a img{
 	float: left;
@@ -449,22 +450,42 @@
 	margin-left: 5px;
 	color: #FFF;
 }
+
+.pindleft .pdbq a,.pindmid .pdbq a,.pindright .pdbq a{
+	float: right;
+	position: absolute;
+	top:0;
+	right: 0;
+	display: block;
+	width: 120px;
+	height: 27px;
+	/*background-color: black;*/
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	line-height: 27px;
+	z-index: 899;
+	/*opacity: 0.5;*/
+}
 .pindmid{
 	float: left;
 	width: 396px;
 	height: 196px;
 	background-color: #f57977;
 	border-right: 1px solid #FFF;
+	position: relative;
+	
 }
 .pindright{
 	float: right;
 	width: 396px;
 	height: 196px;
 	background-color: #7aa81c;
+	position: relative;
+	
 }
-
-
 /* ---------- 频道专区 end ---------- */
+
 
 
 /* ---------- 销量最多 start ---------- */

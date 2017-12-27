@@ -577,7 +577,7 @@
 
 /* ---------- 个人福利 end ---------- */
 
-
+/*---个人福利标题 start---*/
 .gerenleft {
 	float: left;
 	padding: 13px 0;
@@ -608,6 +608,50 @@
 	/*border: 1px solid red;*/
 	
 }
+/*---个人福利标题end---*/
+
+/*---个人福利产品 start---*/
+.grenflcon{
+	width: 1190px;
+	height: 486px;
+	margin: 0 auto;
+	border: 1px solid #DDD;
+	border-top: 2px solid #F4629C;
+}
+
+.grflcleft{
+	float: left;
+	width: 250px;
+	height: 486px;
+	overflow: hidden;
+}
+
+.grflcmid{
+	float: left;
+	width: 712px;
+	height: 486px;
+	/*background-color: red;*/
+	padding: 23px 0px 23px 18px;
+}
+.grflcmid dl{
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 20px;
+}
+.grflcmid dl img{
+	width: 160px;
+	height: 160px;
+}
+.grflcmid dl dt{
+	margin-bottom: 10px;
+}
+.grflcmid dl dd{
+	line-height: 20px;
+}
+.grflcmid dl dd strong{
+	color: #FF7800;
+}
+/*---个人福利产品 end---*/
 /* ---------- 个人福利 end ---------- */
 
 

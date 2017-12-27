@@ -388,6 +388,84 @@
 
 /* ---------- 兑换专区 end ---------- */
 
+/* ---------- 频道专区 start ---------- */
+.pindcon{
+	width: 1190px;
+	/*height: 500px;*/
+	margin: 0 auto;
+	margin-top: 10px;
+	/*background-color: red;*/
+}
+.pindleft{
+	float: left;
+	width: 396px;
+	height: 196px;
+	background-color: #53bbdb;
+	border-right: 1px solid #FFF;
+}
+.pindleft a img,.pindmid a img{
+	float: left;
+	margin-top: 25px;
+	margin-left: 27px;
+}
+.pindright a img{
+	float: left;
+	margin-top: 50px;
+	margin-left: 27px;
+}
+.pindleft ul,.pindmid ul,.pindright ul{
+	float: left;
+	/*border: 1px solid red;*/
+	margin-left: 30px;
+	margin-top: 0px;
+
+}
+.pindleft .pdtitle,.pindmid .pdtitle,.pindright .pdtitle{
+	margin-top: 54px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #FFF;
+	/*border: 1px solid yellow;*/
+	padding-bottom: 15px;
+}
+
+.pindleft ul li strong,.pindmid ul li strong,.pindright ul li strong{
+	position: relative;
+	top:4px;
+	float: left;
+	display:inline-block;
+	width: 14px;
+	height: 14px;
+	/*border: 1px solid blueviolet;*/
+	margin-left: 5px;
+	background: url(../images/icons/whole.png) no-repeat 0px -314px;
+}
+.pindleft ul li span,.pindmid ul li span,.pindright ul li span{
+	display: inline-block;
+	/*border: 1px solid green;*/
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #FFF;
+}
+.pindmid{
+	float: left;
+	width: 396px;
+	height: 196px;
+	background-color: #f57977;
+	border-right: 1px solid #FFF;
+}
+.pindright{
+	float: right;
+	width: 396px;
+	height: 196px;
+	background-color: #7aa81c;
+}
+
+
+/* ---------- 频道专区 end ---------- */
+
 
 /* ---------- 销量最多 start ---------- */
 

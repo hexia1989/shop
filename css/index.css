@@ -262,7 +262,7 @@
 
 .dhleft {
 	float: left;
-	padding: 13px;
+	padding: 13px 0;
 }
 
 .dhleft strong {
@@ -575,6 +575,40 @@
 
 /* ---------- 销量最多 end ---------- */
 
+/* ---------- 个人福利 end ---------- */
+
+
+.gerenleft {
+	float: left;
+	padding: 13px 0;
+	/*border: 1px solid red;*/
+	
+}
+
+.gerenleft strong {
+	float: left;
+	display: inline-block;
+	background: url(../images/icons/whole.png) no-repeat 0px -176px;
+	width: 46px;
+	height: 46px;
+	margin-right: 5px;
+}
+.gerenleft .grfl a{
+	font-family: "微软雅黑";
+	color: #333;
+	font-size: 18px;
+	display: inline-block;
+	line-height: 46px;
+}
+.gerenright {
+	float: right;
+	height: 46px;
+	line-height: 72px;
+	padding: 13px 0;
+	/*border: 1px solid red;*/
+	
+}
+/* ---------- 个人福利 end ---------- */
 
 
 /* ---------- 底部广告 start ---------- */

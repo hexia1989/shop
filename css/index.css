@@ -624,6 +624,24 @@
 	width: 250px;
 	height: 486px;
 	overflow: hidden;
+	position: relative;
+}
+
+.grflcleft .fangx{
+	position: absolute;
+	left: 70px;
+	bottom:30px;
+}
+.grflcleft .fangx span{
+	display: inline-block;
+	width: 30px;
+	height: 5px;
+	background-color:#000; 
+	margin-right:10px; 
+	cursor:pointer;
+}
+.fangx span:first-child,.fangx span:hover{
+	background-color: #FF7800;
 }
 
 .grflcmid{
@@ -651,6 +669,39 @@
 .grflcmid dl dd strong{
 	color: #FF7800;
 }
+
+.grflcright{
+	float: left;
+	border-left:1px solid #ddd;
+	padding: 0px 14px;
+}
+.grflcright .hottitle{
+	position: relative;
+	margin-top: 10px;
+	
+}
+.grflcright .hottitle strong{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+	background: url(../images/icons/whole.png) no-repeat -212px -180px;
+}
+.grflcright .hottitle span{
+	font-size: 16px;
+	color: #333;
+	margin-left: 35px;
+	line-height: 28px;
+}
+
+
+
+
+
+
+
+
 /*---个人福利产品 end---*/
 /* ---------- 个人福利 end ---------- */
 

@@ -581,8 +581,6 @@
 .gerenleft {
 	float: left;
 	padding: 13px 0;
-	/*border: 1px solid red;*/
-	
 }
 
 .gerenleft strong {
@@ -616,7 +614,7 @@
 	height: 486px;
 	margin: 0 auto;
 	border: 1px solid #DDD;
-	border-top: 2px solid #F4629C;
+	border-top: 2px solid #72ACE7;
 }
 
 .grflcleft{
@@ -672,39 +670,213 @@
 
 .grflcright{
 	float: left;
+	width: 181px;
+	height: 486px;
 	border-left:1px solid #ddd;
 	padding: 0px 14px;
 }
-.grflcright .hottitle{
+.hottitle{
 	position: relative;
 	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
 	
 }
-.grflcright .hottitle strong{
+.hottitle strong{
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	width: 28px;
 	height: 28px;
-	background: url(../images/icons/whole.png) no-repeat -212px -180px;
+	background: url(../images/icons/whole.png) no-repeat -50px -180px;
 }
-.grflcright .hottitle span{
+
+.hottitle span{
 	font-size: 16px;
 	color: #333;
 	margin-left: 35px;
 	line-height: 28px;
 }
 
-
-
-
-
-
-
-
-
+.hotimage{
+	text-align: center;
+	border-bottom: 1px dashed #ddd;
+}
+.hotimage dt img{
+	width: 130px;
+	height: 130px;
+	margin-bottom: 8px;
+}
+.hotimage dd a{
+	display: block;
+	margin-bottom: 8px;
+}
+.hotpros {
+	border-bottom: 1px dashed #ddd;
+	position: relative;
+}
+.hotpros img{
+	width: 50px;
+	height: 50px;
+}
+.hotpros dt,.hotpros dd{
+	float: left;
+	padding: 9px 0px;
+}
+.hotpros .xiaol,.hotpros .dianzan,.hotpros .dianzan strong{
+	position: absolute;
+}
+.hotpros .xiaol{
+	left: 60px;
+	top: 8px;
+}
+.hotpros .dianzan{
+	left: 85px;
+	bottom: 8px;
+	color: #999;
+}
+.hotpros .dianzan strong{
+	left: -25px;
+	bottom: 8px;
+	width: 17px;
+	height: 15px;
+	background: url(../images/icons/whole.png) no-repeat -218px 0px;
+}
 /*---个人福利产品 end---*/
 /* ---------- 个人福利 end ---------- */
+
+
+/* ---------- 公司福利 start ---------- */
+/*---公司福利标题 start---*/
+.gonsileft {
+	float: left;
+	padding: 13px 0;
+}
+
+.gonsileft strong {
+	float: left;
+	display: inline-block;
+	background: url(../images/icons/whole.png) no-repeat -84px -176px;
+	width: 46px;
+	height: 46px;
+	margin-right: 5px;
+}
+.gonsileft .grfl a{
+	font-family: "微软雅黑";
+	color: #333;
+	font-size: 18px;
+	display: inline-block;
+	line-height: 46px;
+}
+.gonsiright {
+	float: right;
+	height: 46px;
+	line-height: 72px;
+	padding: 13px 0;
+}
+/*---公司福利标题end---*/
+
+/*---公司福利产品 start---*/
+.gosiflcon{
+	width: 1190px;
+	height: 486px;
+	margin: 0 auto;
+	border: 1px solid #DDD;
+	border-top: 2px solid #FF7700;
+}
+
+.hottitle2{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	
+}
+.hottitle2 strong{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+	background: url(../images/icons/whole.png) no-repeat -132px -180px;
+}
+
+.hottitle2 span{
+	font-size: 16px;
+	color: #333;
+	margin-left: 35px;
+	line-height: 28px;
+}
+
+/*---公司福利产品 end---*/
+/* ---------- 公司福利 end ---------- */
+
+
+/* ---------- 家庭福利 start ---------- */
+/*---家庭福利标题 start---*/
+.jiatileft {
+	float: left;
+	padding: 13px 0;
+}
+
+.jiatileft strong {
+	float: left;
+	display: inline-block;
+	background: url(../images/icons/whole.png) no-repeat -165px -176px;
+	width: 46px;
+	height: 46px;
+	margin-right: 5px;
+}
+.jiatileft .grfl a{
+	font-family: "微软雅黑";
+	color: #333;
+	font-size: 18px;
+	display: inline-block;
+	line-height: 46px;
+}
+.jiatiright {
+	float: right;
+	height: 46px;
+	line-height: 72px;
+	padding: 13px 0;
+}
+/*---家庭福利标题end---*/
+
+/*---家庭福利产品 start---*/
+.jiatiflcon{
+	width: 1190px;
+	height: 486px;
+	margin: 0 auto;
+	border: 1px solid #DDD;
+	border-top: 2px solid #F5619C;
+}
+
+.hottitle3{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	
+}
+.hottitle3 strong{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+	background: url(../images/icons/whole.png) no-repeat -213px -180px;
+}
+
+.hottitle3 span{
+	font-size: 16px;
+	color: #333;
+	margin-left: 35px;
+	line-height: 28px;
+}
+
+/*---家庭福利产品 end---*/
+/* ---------- 家庭福利 end ---------- */
+
 
 
 /* ---------- 底部广告 start ---------- */

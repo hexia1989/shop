@@ -918,9 +918,13 @@
 	float: left;
 	width: 250px;
 }
+.tejiacleft dl dd{
+	padding-left: 8px;
+}
 .tejiacleft dt{
 	display: block;
 	margin-bottom: 10px;
+	padding-left: 0px;
 }
 .tejiaword{
 	/*background-color: yellow;*/

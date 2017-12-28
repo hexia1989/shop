@@ -285,9 +285,14 @@
 
 .dhright {
 	float: right;
-	line-height: 54px;
+	position: relative;
+	width: 60px;
+	height: 45px;
 }
-
+.dhright span{
+	position: absolute;
+	top: 25px;
+}
 .changelist {
 	width: 1170px;
 	margin: 0 auto;
@@ -308,12 +313,6 @@
 	zoom: 1;
 	position: relative;
 }
-
-
-/*.changelist {
-	position: absolute;
-	z-index: 50;
-}*/
 
 .changelist dl {
 	float: left;
@@ -362,12 +361,10 @@
 	display: block;
 	width: 60px;
 	height: 60px;
-	/*border: 1px solid red;*/
 	position: absolute;
 	left: 0px;
 	top: 110px;
 	cursor: pointer;
-	/*display: none;*/
 	z-index: 60;
 }
 
@@ -376,12 +373,10 @@
 	display: block;
 	width: 60px;
 	height: 60px;
-	/*border: 1px solid red;*/
 	position: absolute;
 	right: 0px;
 	top: 110px;
 	cursor: pointer;
-	/*display: none;*/
 	z-index: 60;
 }
 
@@ -391,10 +386,8 @@
 /* ---------- 频道专区 start ---------- */
 .pindcon{
 	width: 1190px;
-	/*height: 500px;*/
 	margin: 0 auto;
 	margin-top: 10px;
-	/*background-color: red;*/
 }
 .pindleft{
 	float: left;
@@ -416,7 +409,6 @@
 }
 .pindleft ul,.pindmid ul,.pindright ul{
 	float: left;
-	/*border: 1px solid red;*/
 	margin-left: 30px;
 	margin-top: 0px;
 
@@ -426,7 +418,6 @@
 	font-family: "微软雅黑";
 	font-size: 16px;
 	color: #FFF;
-	/*border: 1px solid yellow;*/
 	padding-bottom: 15px;
 }
 
@@ -437,13 +428,11 @@
 	display:inline-block;
 	width: 14px;
 	height: 14px;
-	/*border: 1px solid blueviolet;*/
 	margin-left: 5px;
 	background: url(../images/icons/whole.png) no-repeat 0px -314px;
 }
 .pindleft ul li span,.pindmid ul li span,.pindright ul li span{
 	display: inline-block;
-	/*border: 1px solid green;*/
 	font-family: "微软雅黑";
 	font-size: 14px;
 	margin-bottom: 5px;
@@ -459,13 +448,12 @@
 	display: block;
 	width: 120px;
 	height: 27px;
-	/*background-color: black;*/
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
 	text-align: center;
 	line-height: 27px;
 	z-index: 899;
-	/*opacity: 0.5;*/
+	
 }
 .pindmid{
 	float: left;
@@ -581,6 +569,7 @@
 .gerenleft {
 	float: left;
 	padding: 13px 0;
+	position: relative;
 }
 
 .gerenleft strong {
@@ -596,14 +585,16 @@
 	color: #333;
 	font-size: 18px;
 	display: inline-block;
-	line-height: 46px;
+	position: absolute;
+	width: 100px;
+	top:30px;
+	left: 56px;
 }
 .gerenright {
 	float: right;
 	height: 46px;
-	line-height: 72px;
+	line-height: 68px;
 	padding: 13px 0;
-	/*border: 1px solid red;*/
 	
 }
 /*---个人福利标题end---*/
@@ -646,7 +637,6 @@
 	float: left;
 	width: 712px;
 	height: 486px;
-	/*background-color: red;*/
 	padding: 23px 0px 23px 18px;
 }
 .grflcmid dl{
@@ -751,6 +741,7 @@
 .gonsileft {
 	float: left;
 	padding: 13px 0;
+	position: relative;
 }
 
 .gonsileft strong {
@@ -766,12 +757,15 @@
 	color: #333;
 	font-size: 18px;
 	display: inline-block;
-	line-height: 46px;
+	position: absolute;
+	width: 100px;
+	top:30px;
+	left: 56px;
 }
 .gonsiright {
 	float: right;
 	height: 46px;
-	line-height: 72px;
+	line-height: 68px;
 	padding: 13px 0;
 }
 /*---公司福利标题end---*/
@@ -817,6 +811,7 @@
 .jiatileft {
 	float: left;
 	padding: 13px 0;
+	position: relative;
 }
 
 .jiatileft strong {
@@ -832,12 +827,15 @@
 	color: #333;
 	font-size: 18px;
 	display: inline-block;
-	line-height: 46px;
+	position: absolute;
+	width: 100px;
+	top:30px;
+	left: 56px;
 }
 .jiatiright {
 	float: right;
 	height: 46px;
-	line-height: 72px;
+	line-height: 68px;
 	padding: 13px 0;
 }
 /*---家庭福利标题end---*/
@@ -876,6 +874,166 @@
 
 /*---家庭福利产品 end---*/
 /* ---------- 家庭福利 end ---------- */
+
+
+/* ---------- 特价专卖 start ---------- */
+/*---特价专卖标题 start---*/
+.tejialeft {
+	float: left;
+	padding: 13px 0;
+}
+
+.tejialeft strong {
+	float: left;
+	display: inline-block;
+	background: url(../images/icons/whole.png) no-repeat -175px -111px;
+	width: 35px;
+	height: 35px;
+	margin-right: 5px;
+}
+.tejialeft .grfl a{
+	font-family: "微软雅黑";
+	color: #333;
+	font-size: 18px;
+	display: inline-block;
+	line-height: 35px;
+}
+.tejiaright {
+	float: right;
+	height: 17px;
+	padding: 27px 0px 17px 0px;
+}
+
+/*---特价专卖标题end---*/
+
+/*---特价专卖产品start---*/
+.tejiacon{
+	width: 1190px;
+	height: 401px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	border-top: 2px solid #AA73D1;
+}
+.tejiacleft{
+	float: left;
+	width: 250px;
+}
+.tejiacleft dt{
+	display: block;
+	margin-bottom: 10px;
+}
+.tejiaword{
+	/*background-color: yellow;*/
+	line-height: 20px;
+	color: #666;
+}
+.tejiazanl{
+	line-height: 30px;
+	color: #999;
+}
+.tejiazanl span{
+	text-decoration: line-through;
+}
+.tejiacleft dl dd span{
+	color: #666;
+}
+.tejiacleft dl dd b{
+	color: #FF7800;
+}
+.tejiacleft .tejiazk{
+	display: inline-block;
+	width: 38px;
+	height: 17px;
+	background-color: #FF7800;
+	color: #FFF;
+	text-align: center;
+	line-height: 17px;
+	margin-left: 10px;
+}
+.tejiacleft .tejiascxl{
+	margin-top: 10px;
+	position: relative;
+}
+.tejiacleft .tejiascxl a{
+	display: inline-block;
+	width: 55px;
+	height: 21px;
+	background-color: #FF7800;
+	text-align: right;
+	line-height: 21px;
+	color: #FFF;
+	padding-right: 10px;
+}
+.tejiacleft .tejiascxl strong{
+	position: absolute;
+	left: 10px;
+	top: 7px;
+	width: 13px;
+	height: 11px;
+	background-color: royalblue;
+	background: url(../images/icons/whole.png) no-repeat -253px 0px;
+}
+
+.tejiacleft .tejiascxl i{
+	display: inline-block;
+	position: absolute;
+	width: 17px;
+	height: 15px;
+	margin-top: 3px;
+	margin-left: 20px;
+	background: url(../images/icons/whole.png) no-repeat -218px 0px;
+}
+.tejiacleft .tejiascxl span{
+	display: inline-block;
+	margin-left: 43px;
+	margin-top: 5px;
+	
+}
+.tejiacright1{
+	float: left;
+	width: 325px;
+	margin-left: 12px;
+	margin-right: 15px;
+}
+.tejiacright1 dl{
+	float: left;
+	border-left: 1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	padding: 19px 14px;
+}
+.tejiacright1 .tejiadl2{
+	border-right: 1px solid #ddd;
+}
+.tejiacright1 dl img{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.tejiacright1 dl strong{
+	color: #FF7800;
+}
+
+
+
+.tejiacright2{
+	float: left;
+	width: 325px;
+	margin-left: 12px;
+}
+.tejiacright2 dl{
+	float: left;
+	border-left: 1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	padding: 19px 14px;
+}
+.tejiacright2 dl img{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.tejiacright2 dl strong{
+	color: #FF7800;
+}
+/*---特价专卖产品end---*/
+/* ---------- 特价专卖 end ---------- */
 
 
 

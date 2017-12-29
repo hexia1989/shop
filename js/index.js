@@ -1,33 +1,5 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link type="text/css" rel="stylesheet" href="css/index.css" />
-		<link type="text/css" rel="stylesheet" href="css/whole.css" />
-		
-	</head>
-	<body>
-		<div class="banner">
-			<ul class="bannerimg">
-				<li><img src="images/add/banner1.jpg"></li>
-				<li><img src="images/add/banner2.jpg"></li>
-				<li><img src="images/add/banner3.jpg"></li>
-				<li><img src="images/add/banner4.jpg"></li>
-				<li><img src="images/add/banner5.jpg"></li>
-			</ul>
-			<ul class="points">
-				<span>1</span>
-				<span>2</span>
-				<span>3</span>
-				<span>4</span>
-				<span>5</span>
-			</ul>
-		</div>
-		
-		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
+//<!-- banner轮播图  start-->
+$(document).ready(function() {
 				var images = $(".banner .bannerimg li"); //获取的是所有的li也就是所有的图片
 				var imageCount = images.length; //图片的数量
 				var index = 0; //图片显示索引。
@@ -72,7 +44,6 @@
 				});
 				
 			});
-		</script>
+			
 
-	</body>
-</html>
+//<!-- banner轮播图  end-->

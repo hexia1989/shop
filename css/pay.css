@@ -1,3 +1,4 @@
+/*---------------支付流程 start----------------*/
 .paylist{
 	width: 1190px;
 	margin: 0 auto;
@@ -7,6 +8,9 @@
 	text-align: right;
 	margin-top: 28px;
 }
+/*---------------支付流程 end----------------*/
+
+/*---------------提交订单 start----------------*/
 .tijiao{
 	margin-top: 36px;
 	/*border: 1px solid blueviolet;*/
@@ -71,6 +75,9 @@
 	top:10px;
 	left:143px;
 }
+/*---------------提交订单 end----------------*/
+
+/*---------------付款表单 start----------------*/
 .fukuan{
 	width: 970px;
 	margin: 0 auto;
@@ -107,3 +114,4 @@
 	padding: 15px 20px;
 	line-height: 24px;
 }
+/*---------------付款表单 end----------------*/

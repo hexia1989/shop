@@ -1,0 +1,171 @@
+/*-------------福利大标题 start--------------*/
+
+.protit .protitcon{
+	width: 1190px;
+	margin: 0px;
+	padding: 0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.protit .protitcon a{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	color: #1D7AD9;
+}
+.protit .protitcon a:hover{
+	color: #FF7800;
+}
+.probigtit{
+	background-color: #ecf7ff;
+	height: 270px;
+	padding: 15px 0px;
+}
+.probigtit .probigcon{
+	width: 1190px;
+	height: 270px;
+	margin: 0 auto;
+}
+.probigtit .probigcon ul{
+	float: left;
+	width: 268px;
+	height: 267px;
+	border: 1px solid #bee4ff;
+	margin-right: 10px;
+	background-color: #fff;
+	padding: 10px;
+}
+.probigtit .probigcon ul:hover,.probigtit .probigcon ul:nth-child(3){
+	background-color:#d3ecff ;
+}
+.probigtit .probigcon ul:last-child{
+	margin-right: 0px;
+}
+.probigtit .probigcon ul li h1{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #1D7AD9;
+	font-weight: normal;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.probigtit .probigcon ul li a{
+	display: inline-block;
+	width: 87px;
+	height: 30px;
+	background-color: #ecf7ff;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 2.3px;
+	margin-bottom: 2px;
+}
+.probigtit .probigcon ul li a:hover{
+	background-color: #1D7AD9;
+	color: #fff;
+}
+.probigtit .probigcon ul li dl{
+	margin-top: 10px;
+}
+.probigtit .probigcon ul li dl img{
+	width: 100px;
+	height: 100px;
+	background-color: #eee;
+	margin-right: 10px;
+}
+.probigtit .probigcon .prolicpsm{
+	line-height: 24px;
+}
+.probigtit .probigcon dl dd b{
+	line-height: 24px;
+	color: #FF7800;
+}
+.probigtit .probigcon dl span{
+	display: inline-block;
+	width: 35px;
+	height: 5px;
+	background-color: #ddd;
+}
+.probigtit .probigcon dl span:first-child{
+	margin-left:38px;
+}
+.probigtit .probigcon dl span:nth-child(2),.probigtit .probigcon dl span:hover{
+	background-color: #1D7AD9;
+}
+/*-------------福利大标题 end--------------*/
+
+
+/* ---------- 办公用品 最新产品 start ---------- */
+
+.bgypzxcp .title {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.bgypzxcp .title .dhleft {
+	float: left;
+	padding: 13px 0;
+}
+
+.bgypzxcp .title  .duihuan a {
+	font-family: "微软雅黑";
+	color: #1D7AD9;
+	font-size: 18px;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.bgypzxcp .changecon{
+	width: 1148px;
+	height: 215px;
+	border: 1px solid #ddd;
+	border-top: 2px solid #1D7AD9;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+}
+.bgypzxcp .changecon dl{
+	float: left;
+	margin-right: 25.6px;
+}
+.bgypzxcp .changecon dl:last-child{
+	margin-right: 0px;
+}
+.bgypzxcp .changecon dl img{
+	width: 170px;
+	height: 170px;
+	margin-bottom: 10px;
+	background-color: #eee;
+}	
+.bgypzxcp .changecon dl dd{
+	line-height: 20px;
+}
+.bgypzxcp .changecon b{
+	color: #FF7800;
+}
+.bgypzxcp .zxcpcon{
+	width: 1190px;
+	height: 257px;
+	margin: 0 auto;
+	position: relative;
+}
+.changetbz{
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width: 60px;
+	height: 60px;
+	z-index: 60;
+	background: url(../images/icons/whole.png) no-repeat 0px -112px;
+}
+.changetby{
+	position: absolute;
+	right: 0px;
+	top: 100px;
+	width: 60px;
+	height: 60px;
+	z-index: 60;
+	background: url(../images/icons/whole.png) no-repeat -66px -112px;
+}
+
+/* ---------- 办公用品 最新产品 end ---------- */
+

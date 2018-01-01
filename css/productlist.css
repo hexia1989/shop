@@ -169,3 +169,24 @@
 
 /* ---------- 办公用品 最新产品 end ---------- */
 
+/* ---------- 办公用品 产品展示 start ---------- */
+.proshowcon{
+	width: 1190px;
+	height: 3000px;
+	margin: 0 auto;
+	/*background-color: red;*/
+	margin-top: 20px;
+}
+
+.proshowcon .proshowtit span{
+	font-family: "微软雅黑";
+	color: #1D7AD9;
+	font-size: 18px;
+	display: inline-block;
+	padding: 13px 0;
+	background-color: red;
+}
+
+/* ---------- 办公用品 产品展示 end ---------- */
+
+

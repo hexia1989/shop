@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
 		<style type="text/css">
-			.shopcarcon{
+			.shopcarcon {
 				width: 1190px;
 				padding: 0;
 				margin: 0;
 				margin: 0 auto;
 			}
-			.gwc{
+			
+			.gwc {
 				text-align: right;
 				padding-top: 25px;
-				padding-bottom:25px;
+				padding-bottom: 25px;
 			}
-			.gwclist .gwclisttit a{
+			
+			.gwclist .gwclisttit a {
 				display: inline-block;
 				width: 90px;
 				height: 30px;
@@ -26,7 +29,9 @@
 				margin-left: 25px;
 				padding-left: 10px;
 			}
-			.gwclist .gwclisttit a:first-child,.gwclist .gwclisttit a:hover{
+			
+			.gwclist .gwclisttit a:first-child,
+			.gwclist .gwclisttit a:hover {
 				background-color: #333;
 				color: #fff;
 				margin-left: 0px;
@@ -34,9 +39,217 @@
 				margin-left: 25px;
 			}
 			
+			.gwclist .gwclisttit a:first-child {
+				margin-left: 0px;
+			}
+			.gwclistcon{
+				width: 1190px;
+			}
+			.gwclistcon .listcon1 {
+				width: 1148px;
+				border: 1px solid #c5c5c5;
+				border-bottom: 0px;
+				margin-top: 20px;
+				padding: 0px 20px;
+				color: #666;
+			}
+			
+			.gwclistcon .listcon1 li {
+				border-bottom: 1px dashed #e5e5e5;
+				padding: 20px 0px;
+				position: relative;
+			}
+			.gwclistcon .listcon1 li .checkxx0{
+				display: inline-block;
+				position: absolute;
+				top: 20px;
+				left: 0px;
+			}
+			.gwclistcon .listcon1 li .checkxx1{
+				display: inline-block;
+				margin-right: 274px;
+				margin-left: 20px;
+			}
+			.gwclistcon .listcon1 li .checkxx2{
+				display: inline-block;
+				margin-right: 170px;
+			}
+			.gwclistcon .listcon1 li .checkxx3{
+				display: inline-block;
+				margin-right: 180px;
+			}
+			.gwclistcon .listcon1 li .checkxx4{
+				display: inline-block;
+				margin-right: 130px;
+			}
+			.gwclistcon .listcon1 li .checkxx5{
+				display: inline-block;
+				margin-right: 100px;
+			}
+			.gwclistcon .listcon1 .gwcconcp{
+				position: relative;
+				height: 75px;
+			}
+			
+			.gwclistcon .listcon1 .gwcconcp .checkbox1{
+				position: absolute;
+				top: 22px;
+			}
+			.gwclistcon .listcon1 .gwcconcp img{
+				position: absolute;
+				top: 20px;
+				left: 60px;
+			}
+			.gwclistcon .listcon1 .gwcconcp .miaosu1{
+				position: absolute;
+				top: 20px;
+				left: 140px;
+				display: inline-block;
+				width: 179px;
+				line-height: 24px;
+			}
+			.gwclistcon .listcon1 .gwcconcp .miaosu2{
+				position: absolute;
+				top: 20px;
+				left: 365px;
+				display: inline-block;
+				line-height: 24px;
+			}
+			
+			
+			.gwclistcon .listcon1 li .shuruk1 {
+				width: 75px;
+				height: 20px;
+				position: absolute;
+				left: 590px;
+				top: 24px;
+			}
+			.gwclistcon .listcon1 .gwcconcp .miaosu3{
+				position: absolute;
+				top: 24px;
+				left: 675px;
+				display: inline-block;
+				line-height: 24px;
+			}
+			.gwclistcon .listcon1 .gwcconcp .btnjian{
+				width: 17px;
+				height: 24px;
+				position: absolute;
+				top: 24px;
+				left: 800px;
+			}
+			.gwclistcon .listcon1 li .shuruk2 {
+				width: 55px;
+				height: 20px;
+				position: absolute;
+				top: 24px;
+				left: 822px;
+			}
+			.gwclistcon .listcon1 .gwcconcp .btnjia{
+				width: 17px;
+				height: 24px;
+				position: absolute;
+				top: 24px;
+				left: 886px;
+			}
+			.gwclistcon .listcon1 .gwcconcp .miaosu4{
+				position: absolute;
+				top: 16px;
+				left: 960px;
+				display: inline-block;
+				line-height: 28px;
+				font-size: 14px;
+				font-family: "微软雅黑";
+				color: #FF7800;
+			}
+			.gwclistcon .listcon1 .gwcconcp .miaosu5{
+				position: absolute;
+				top: 16px;
+				left: 1095px;
+				display: inline-block;
+				line-height: 24px;
+			}
+			.gwclistcon .listcon2 {
+				/*padding: 20px 0px;*/
+				border: 1px solid #c5c5c5;
+				border-top: 0px;
+				background-color: #f2f2f2;
+				color: #666;
+			}
+			
+			.gwclistcon .listcon2 .con2left {
+				float: left;
+				padding-left: 20px;
+				/*background-color: red;*/
+				position: relative;
+			}
+			.gwclistcon .listcon2 .con2left input{
+				position: absolute;
+				top: 24px;
+			}
+			.gwclistcon .listcon2 .con2left .miaosu6{
+				display: inline-block;
+				margin-left: 20px;
+				margin-right: 20px;
+				margin-top: 24px;
+			}
+			.gwclistcon .listcon2 .con2left .jrsctb{
+				width: 14px;
+				height: 12px;
+				position: absolute;
+				top: 24px;
+				left: 100px;
+				background: url(images/icons/whole.png) no-repeat -122px -270px;
+			}
+			.gwclistcon .listcon2 .con2left .miaosu7{
+				display: inline-block;
+				margin-left: 30px;
+				margin-right: 20px;
+				margin-top: 24px;
+			}
+			.gwclistcon .listcon2 .con2left .shanctb{
+				width: 14px;
+				height: 18px;
+				background-color: green;
+				position: absolute;
+				top: 20px;
+				left: 200px;
+				background: url(images/icons/whole.png) no-repeat -100px -270px;
+			}
+			.gwclistcon .listcon2 .con2left .miaosu8{
+				display: inline-block;
+				margin-left: 30px;
+				margin-right: 20px;
+				margin-top: 24px;
+			}
+			.gwclistcon .listcon2 .con2right {
+				float: right;
+				
+			}
+			.gwclistcon .listcon2 .con2right .con2qid1{
+				color: #FF7800;
+			}
+			.gwclistcon .listcon2 .con2right .con2qid2{
+				color: #FF7800;
+				font-family: "微软雅黑";
+				font-size: 24px;
+				font-weight: normal;
+			}
+			.gwclistcon .listcon2 .con2right a{
+				display: inline-block;
+				width: 144px;
+				height: 60px;
+				background-color: #FF7800;
+				font-family: "微软雅黑";
+				font-size: 24px;
+				color: #fff;
+				text-align: center;
+				line-height: 60px;
+			}
 		</style>
 		<link type="text/css" rel="stylesheet" href="css/whole.css" />
 	</head>
+
 	<body>
 		<div id="header"></div>
 		<div class="shopcar">
@@ -47,64 +260,79 @@
 				<div class="gwclist">
 					<div class="gwclisttit">
 						<a href="#">全部商品（3）</a>|
-					    <a href="#">降价商品（2）</a>|
-					    <a href="#">库存紧张（2）</a>
+						<a href="#">降价商品（2）</a>|
+						<a href="#">库存紧张（2）</a>
 					</div>
-					<div class="gwclist">
-						<ul>
+					<div class="gwclistcon">
+						<ul class="listcon1">
 							<li>
-								<input type="checkbox" />
-								<span>全选商品</span>
-								<span>商品信息</span>
-								<span>单价</span>
-								<span>数量</span>
-								<span>合计</span>
-								<span>操作</span>
+								<input type="checkbox" class="checkxx0"/>
+								<span class="checkxx1">全选&nbsp;&nbsp;&nbsp;商品</span>
+								<span class="checkxx2">商品信息</span>
+								<span class="checkxx3">单价</span>
+								<span class="checkxx4">数量</span>
+								<span class="checkxx5">合计</span>
+								<span class="checkxx6">操作</span>
 							</li>
-							<li>
-								<input type="checkbox" />
+							<li class="gwcconcp">
+								<input type="checkbox" class="checkbox1" />
 								<img src="images/products/shopcar.png" />
-								<span>韩国代购早秋新款安哥拉兔毛针织衫白色包臀连衣裙套装</span>
-								<span>颜色分类：白色【衣+裙】尺码：M【适合100-110斤穿】</span>
-								<input type="text" /><span>赞礼币+89.9元</span>
-								<button>-</button>
-								<input type="text" />
-								<button>+</button>
-								<span>23赞礼币129.9元</span>
-								<span>加入收藏删除</span>
+								<span class="miaosu1">韩国代购早秋新款安哥拉兔毛针织衫白色包臀连衣裙套装</span>
+								<span class="miaosu2">颜色分类：白色【衣+裙】<br/>尺码：M【适合100-110斤穿】</span>
+								<input type="text" class="shuruk1" /><span class="miaosu3">赞礼币+89.9元</span>
+								<button class="btnjian"><b>-</b></button>
+								<input type="text" class="shuruk2" />
+								<button class="btnjia"><b>+</b></button>
+								<span class="miaosu4">23赞礼币<br/>129.9元</span>
+								<span class="miaosu5">加入收藏<br/>删除</span>
 							</li>
-							<li>
-								<input type="checkbox" />
+							<li class="gwcconcp">
+								<input type="checkbox" class="checkbox1" />
 								<img src="images/products/shopcar.png" />
-								<span>韩国代购早秋新款安哥拉兔毛针织衫白色包臀连衣裙套装</span>
-								<span>颜色分类：白色【衣+裙】尺码：M【适合100-110斤穿】</span>
-								<input type="text" /><span>赞礼币+89.9元</span>
-								<button>-</button>
-								<input type="text" />
-								<button>+</button>
-								<span>23赞礼币129.9元</span>
-								<span>加入收藏删除</span>
+								<span class="miaosu1">韩国代购早秋新款安哥拉兔毛针织衫白色包臀连衣裙套装</span>
+								<span class="miaosu2">颜色分类：白色【衣+裙】<br/>尺码：M【适合100-110斤穿】</span>
+								<input type="text" class="shuruk1" /><span class="miaosu3">赞礼币+89.9元</span>
+								<button class="btnjian"><b>-</b></button>
+								<input type="text" class="shuruk2" />
+								<button class="btnjia"><b>+</b></button>
+								<span class="miaosu4">23赞礼币<br/>129.9元</span>
+								<span class="miaosu5">加入收藏<br/>删除</span>
 							</li>
+							
+						</ul>
+						<ul class="listcon2 over">
 							<li>
-								<div class="left">
-									<input type="checkbox" /><span>全选</span>
-								    <strong></strong><span>加入收藏</span>
-								    <strong></strong><span>删除</span>
+								<div class="con2left">
+									<input type="checkbox" /><span class="miaosu6">全选</span>
+									<strong class="jrsctb"></strong><span class="miaosu7">加入收藏</span>
+									<strong class="shanctb"></strong><span class="miaosu8">删除</span>
 								</div>
-								<div class="right">
-									<span>共有<b>4</b>件商品，共计<b>29</b>赞礼币+<b>259.90元</b></span>
+								<div class="con2right">
+									<span class="miaosu9">共有<b class="con2qid1">4</b>件商品，共计<b class="con2qid2">&nbsp;29&nbsp;</b>赞礼币+<b class="con2qid2">&nbsp;259.90元&nbsp;</b></span>
+								    <a href="#">去付款</a>
 								</div>
 							</li>
 						</ul>
 					</div>
-						
+				</div>
+				<div class="guesslike">
+					
+					
+					
+					
+					
+					
+					
+					
+				</div>
+			</div>
 		</div>
-		
 		<div id="footer"></div>
 		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
-	    <script type="text/javascript">
+		<script type="text/javascript">
 			$("#header").load("header.html");
 			$("#footer").load("footer.html");
 		</script>
 	</body>
+
 </html>

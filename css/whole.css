@@ -28,8 +28,12 @@ img {
 	overflow: hidden;
 	zoom: 1;
 }
-
-
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 /* ---------- 头部 start ---------- */
 
 .top {

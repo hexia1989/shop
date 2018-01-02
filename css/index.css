@@ -148,6 +148,7 @@
 .bannerimg a img {
 	width: 755px;
 	height: 353px;
+	background-color: #eee;
 }
 
 /*.bannerspan*/.points {
@@ -221,6 +222,7 @@
 .newimg a img {
 	width: 213px;
 	height: 312px;
+	background-color: #eee;
 }
 
 .newspan {
@@ -324,6 +326,7 @@
 .changelist dl dt a img {
 	width: 192px;
 	height: 192px;
+	background-color: #eee;
 }
 
 .changelist dl dt {
@@ -528,6 +531,7 @@
 .mostproduct li dl dt img {
 	width: 150px;
 	height: 150px;
+	background-color: #eee;
 }
 
 .mostproduct li dl dt {
@@ -647,6 +651,7 @@
 .grflcmid dl img{
 	width: 160px;
 	height: 160px;
+	background-color: #eee;
 }
 .grflcmid dl dt{
 	margin-bottom: 10px;
@@ -696,6 +701,7 @@
 	width: 130px;
 	height: 130px;
 	margin-bottom: 8px;
+	background-color: #eee;
 }
 .hotimage dd a{
 	display: block;
@@ -708,6 +714,7 @@
 .hotpros img{
 	width: 50px;
 	height: 50px;
+	background-color: #eee;
 }
 .hotpros dt,.hotpros dd{
 	float: left;
@@ -1049,6 +1056,7 @@
 	}
 .footadd a img{ 
 	height:71px;
+	background-color: #eee;
 }
 /* ---------- 底部广告 end ---------- */
 

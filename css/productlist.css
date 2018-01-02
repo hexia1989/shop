@@ -172,7 +172,7 @@
 /* ---------- 办公用品 产品展示 start ---------- */
 .proshowcon{
 	width: 1190px;
-	height: 3000px;
+	/*height: 3000px;*/
 	margin: 0 auto;
 	/*background-color: red;*/
 	margin-top: 20px;
@@ -184,9 +184,69 @@
 	font-size: 18px;
 	display: inline-block;
 	padding: 13px 0;
-	background-color: red;
 }
-
+.proshowchp .proshowdyh{
+	margin-bottom: 20px;
+}
+.proshowchp dl{
+	float: left;
+	width: 220px;
+	height: 355px;
+	border: 1px solid #ddd;
+	margin-right: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.proshowchp .diwucp{
+	margin-right: 0px;
+}
+.proshowchp dl dt img{
+	width: 220px;
+	height: 220px;
+	background-color: #eee;
+	margin-bottom: 20px;
+}
+.proshowchp .proshowsc span{
+	display: inline-block;
+	width: 65px;
+	height: 22px;
+	background-color: #1D7AD9;
+	border-radius:10px;
+	color: #fff;
+	line-height: 22px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+.proshowchp .proshowsc{
+	position: relative;
+}
+.proshowchp .proshowsc strong{
+	position: absolute;
+	top:6px;
+	left: 88px;
+	width: 14px;
+	height: 12px;
+	background: url(../images/icons/whole.png) no-repeat -253px 0px;
+}
+.proshowchp .proshowxl{
+	position: relative;
+}
+.proshowchp .proshowxl strong{
+	position: absolute;
+	top:4px;
+	left: 67px;
+	width: 17px;
+	height: 15px;
+	background-color: red;
+	background: url(../images/icons/whole.png) no-repeat -218px 0px;
+}
+.proshowchp .proshowxl span{
+	margin-left: 30px;
+	line-height: 24px;
+}
+.proshowchp dl dd b{
+	color: #FF7800;
+}
 /* ---------- 办公用品 产品展示 end ---------- */
 
 

@@ -1,7 +1,12 @@
+/* ---------- 公司福利banner导航  start ---------- */
+
+/* ----banner图片  start ---- */
 .gswfban{
 	width: 100%;
 	height: 420px;
 	background-color: #f5ecdb;
+	margin-top: 10px;
+	color: #666;
 }
 .gswfban .gswfbancon{
 	width: 1190px;
@@ -14,22 +19,57 @@
 	height: 420px;
 	background-color: #eee;
 }
+/* ----banner图片  end ---- */
+
+/* ----左侧导航  start ---- */
 .gswfban .gswfbancon .gswfbcleft{
-	z-index: 45;
 	position: absolute;
-	top: 0px;
+	top: 5px;
 	left: 0px;
-	background-color: red;
+	width: 180px;
+	height: 410px;
+	background-color:#1D7AD9;
+	padding: 0px 10px;
+	color: #fff;
 }
+.gswfban .gswfbancon .gswfbcleft li{
+	border-bottom: 1px solid #0052A6;
+	padding: 12px 0px;
+	line-height: 24px;
+}
+.gswfban .gswfbancon .gswfbcleft h1{
+	font-size: 14px;
+}
+.gswfban .gswfbancon .gswfbcleft a{
+	display: inline-block;
+	margin-right: 10px;
+	color: #fff;
+}
+.gswfban .gswfbancon .gswfbcleft a:hover{
+	color: #FF7800;
+}
+/* ----左侧导航  end ---- */
+
+/* ----右侧产品  start ---- */
 .gswfban .gswfbancon .gswfbcright{
-	z-index: 44;
 	position: absolute;
-	top: 0px;
+	top: 5px;
 	right: 0px;
-	background-color: red;
+}
+.gswfban .gswfbancon .gswfbcright dl{
+	width: 190px;
+	height: 203px;
+	background-color: #fff;
+	margin-bottom: 5px;
+	text-align: center;
 }
 .gswfban .gswfbancon .gswfbcright img{
 	width: 160px;
 	height: 160px;
 	background-color: #eee;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
+/* ----右侧产品  start ---- */
+
+/* ---------- 公司福利banner导航  end ---------- */

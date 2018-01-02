@@ -72,4 +72,274 @@
 }
 /* ----右侧产品  start ---- */
 
-/* ---------- 公司福利banner导航  end ---------- */
+/* ---------- 快点抢模块 start ---------- */
+.quickqcon{
+	width: 1190px;
+	margin: 0 auto;
+}
+.quickqcon .quickqtit{
+	position: relative;
+	padding: 15px 0px;
+}
+.quickqcon .quickqtit strong{
+	position: absolute;
+	top: 17px;
+	left: 0px;
+	width: 23px;
+	height: 24px;
+	background: url(../images/icons/whole.png) no-repeat -169px -234px;
+}
+.quickqcon .quickqtit span{
+	font-size: 20px;
+	color: #b71d36;
+	font-family: "微软雅黑";
+	margin-left: 30px;
+}
+.quickqcon .quickqcps{
+	color: #666;
+}
+.quickqcon .quickqcps dl{
+	float: left;
+	width: 200px;
+	height: 329px;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin-right: 20px;
+}
+.quickqcon .quickqcps dl img{
+	width: 200px;
+	height: 200px;
+	background-color: #eee;
+	margin-bottom: 10px;
+}
+.quickqcon .quickqcps dl:last-child{
+	margin-right: 0px;
+}
+.quickqcon .quickqcps dl dd{
+	margin-bottom: 10px;
+}
+.quickqcon .quickqcps dl dd span{
+	color:#999;
+}
+.quickqcon .quickqcps dl dd b{
+	color:#FF7800;
+}
+.quickqcon .quickqcps dl dd i{
+	text-decoration: line-through;
+	font-style: normal;
+}
+.quickqcon .quickqcps dl mark{
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #f9f9f9;
+	position: relative;
+}
+.quickqcon .quickqcps dl mark strong{
+	position: absolute;
+	top: 2px;
+	left: 15px;
+	width: 23px;
+	height: 24px;
+	background: url(../images/icons/whole.png) no-repeat -134px -234px;
+}
+.quickqcon .quickqcps dl mark span{
+	margin-left: 45px;
+}
+.quickqcon .quickqcps dl dd span a{
+	display: block;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #b71d36;
+	border-radius:8px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+/* ---------- 快点抢模块 end ---------- */
+
+/* ---------- 公司福利之办公用品  start ---------- */
+.gswfzbgyp .bgypcon{
+	width: 1190px;
+	height: 667px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/* ---------- 办公用品上部分 start---------- */
+/* ----- 上部分 左 start---- */
+.bgyptleft{
+	width: 172px;
+	height: 440px;
+	background-color: #1D7AD9;
+	position: relative;
+}
+.bgypleftz h1{
+	display: block;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	width: 18px;
+	color: #fff;
+	font-weight: normal;
+	padding: 115px 13px;
+	background-color: #0052A6;
+	height: 210px;
+	background: url(../images/icons/whole.png) no-repeat -302px 0px;
+}
+
+.bgyplefty strong{
+	position: absolute;
+	top: 18px;
+	right: 45px;
+	width: 21px;
+	height: 10px;
+	background: url(../images/icons/whole.png) no-repeat -203px -242px;
+}
+.bgyplefty ul{
+	position: absolute;
+	top: 45px;
+	right: 0px;
+	width: 116px;
+	height: 350px;
+}
+.bgyplefty ul a{
+	display: block;
+	width: 116px;
+	height: 26px;
+	font-size: 14px;
+	margin-bottom: 14.5px;
+	text-align: center;
+	line-height: 26px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+.bgyplefty ul a:hover{
+	background: url(../images/icons/whole.png) no-repeat 0px -235px;
+	color: #1D7AD9;
+}
+.bgyplefty ul .diyipeij{
+	display: block;
+	width: 116px;
+	height: 26px;
+	font-size: 14px;
+	margin-bottom: 14.5px;
+	text-align: center;
+	line-height: 26px;
+	font-family: "微软雅黑";
+	background: url(../images/icons/whole.png) no-repeat 0px -235px;
+	color: #1D7AD9;
+}
+.bgyplefty b{
+	position: absolute;
+	bottom: 18px;
+	right: 45px;
+	width: 21px;
+	height: 10px;
+	background: url(../images/icons/whole.png) no-repeat -234px -242px;
+	
+}
+/* ----- 上部分 左 end---- */
+
+/* ----- 上部分 中 start---- */
+.bgyptmid{
+	position: relative;
+	margin-left: 1px;
+}
+.bgyptmid img{
+	width: 440px;
+	height: 440px;
+	background-color: #eee;
+}
+.bgyptmid span a{
+	position: absolute;
+	bottom: 37px;
+	left: 95px;
+	display: block;
+	width: 200px;
+	height: 100px;
+	background-color: rgba(255,255,255,0.6);
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #333;
+	padding: 0px 25px;
+	text-align: center;
+	line-height: 25px;
+	padding-top: 45px;
+}
+/* ----- 上部分 中 end---- */
+
+/* ----- 上部分 右 start---- */
+.bgyptright ul{
+	width: 562px;
+	height: 441px;
+	border-left:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+.bgyptright ul li{
+	float: left;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	height: 189px;
+	width: 155px;
+	padding: 15px 15.6px;
+	
+}
+.bgyptright ul li img{
+	width: 155px;
+	height: 155px;
+	background-color: #eee;
+	margin-bottom: 10px;
+}
+.bgyptright ul li b{
+	color: #FF7800;
+	display: block;
+	margin-top: 3px;
+}
+/* ----- 上部分 右 end---- */
+
+/* ---------- 办公用品上部分 end---------- */
+
+/* ---------- 办公用品下部分 start---------- */
+.bgypcontop{
+	width: 1190px;
+	height: 440px;
+	margin-bottom: 20px;
+}
+.bgypconbtm{
+	width: 1190px;
+	height: 207px;
+}
+.bgypconbtm ul{
+	width: 1190px;
+	height: 207px;
+}
+.bgypconbtm ul li{
+	float: left;
+	width: 167px;
+	height: 207px;
+	margin-right: 37.5px;
+}
+.bgypconbtm ul li:last-child{
+	margin-right: 0px;
+}
+.bgypconbtm ul li img{
+	width: 167px;
+	height: 165px;
+	background-color: #eee;
+	margin-bottom: 10px;
+	
+}
+.bgypconbtm ul li b{
+	color: #FF7800;
+	display: block;
+	margin-top: 3px;
+}
+/* ---------- 办公用品下部分 end---------- */
+
+
+
+
+/* ---------- 公司福利之办公用品  end ---------- */
+
+
